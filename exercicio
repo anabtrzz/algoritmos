@@ -19,3 +19,4 @@ main(){
   if (18.5 < result < 24.99){
     printf ("Peso Ideal");
   }
+}
