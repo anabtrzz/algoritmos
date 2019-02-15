@@ -1,0 +1,21 @@
+#include <stdio.h>
+main(){
+  float peso;
+  float altura;
+  float result;
+  
+  printf ("Digite seu peso: ");
+  scanf ("%f",&peso);
+  printf ("Digite sua altura: ");
+  scanf ("%f",&altura);
+  result = peso/(altura*altura);
+  
+  if (result > 24.99){
+    printf ("O indivíduo está acima do peso.");
+    }
+  if (result < 18.5){
+    printf ("O indivíduo está abaixo do peso");
+  }
+  if (18.5 < result < 24.99){
+    printf ("Peso Ideal");
+  }
